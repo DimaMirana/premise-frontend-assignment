@@ -1,0 +1,21 @@
+@import './../../styles/index.scss';
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 195px;
+    border-radius: 5px;
+    background-color: $card-body-bg;
+    margin: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,17 @@
+@import './../../styles/index.scss';
+
+.search {
+    display: flex;
+    align-self: center;
+    border: none;
+    border-radius:25px;
+    outline: none;
+    padding: 10px;
+    width: 50%;
+    line-height: 30px;
+    margin: 30px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}

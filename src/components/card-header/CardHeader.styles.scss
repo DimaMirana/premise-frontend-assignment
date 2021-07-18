@@ -1,0 +1,23 @@
+@import './../../styles/index.scss';
+
+.card-header {
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+    height: 3%;
+    font-size: 14px;
+    
+    .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}
+
+.automated {
+    color: $automated-origin-text;
+}
+
+.manual {
+    color: $manual-origin-text;
+}

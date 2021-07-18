@@ -1,0 +1,9 @@
+@import './../../styles/index.scss';
+
+.card-list {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
